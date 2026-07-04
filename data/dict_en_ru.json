@@ -1,1 +1,19 @@
-#Пустой 
+{
+  "bank": [
+    {"translation": "банк", "weight": 0.6, "context": ["account", "money", "loan", "deposit"]},
+    {"translation": "берег", "weight": 0.4, "context": ["river", "water", "shore"]}
+  ],
+  "hello": [
+    {"translation": "привет", "weight": 0.4, "context": []},
+    {"translation": "здравствуйте", "weight": 0.4, "context": ["sir", "madam"]},
+    {"translation": "алло", "weight": 0.2, "context": ["phone", "call"]}
+  ],
+  "key": [
+    {"translation": "ключ", "weight": 0.7, "context": ["door", "lock"]},
+    {"translation": "клавиша", "weight": 0.3, "context": ["keyboard", "press"]}
+  ],
+  "book": [
+    {"translation": "книга", "weight": 0.8, "context": ["read", "library"]},
+    {"translation": "бронировать", "weight": 0.2, "context": ["hotel", "table", "flight"]}
+  ]
+}
